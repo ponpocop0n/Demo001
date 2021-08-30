@@ -150,7 +150,7 @@
 81-->/Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:5-101
 82            android:name="unity.build-id"
 82-->/Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:16-45
-83            android:value="65cde828-ab3c-4990-b754-5b3661fc8aad" />
+83            android:value="17231fb3-ee4f-4575-9fc7-5ff5d2ed17d2" />
 83-->/Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:46-98
 84        <meta-data
 84-->/Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:5-97

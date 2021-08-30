@@ -137,7 +137,7 @@ public class TeleportInputHandlerTouch : TeleportInputHandlerHMD
             float leftMag = 0.0f;
             float rightMag = 0.0f;
             float bestMag = 0.0f;
-            OVRInput.Controller bestController = OVRInput.Controller.Touch;
+            OVRInput.Controller bestController = OVRInput.Controller.RTouch;
             bool leftTouched = OVRInput.Get(OVRInput.RawTouch.LThumbstick);
             bool rightTouched = OVRInput.Get(OVRInput.RawTouch.RThumbstick);
 
@@ -177,7 +177,7 @@ public class TeleportInputHandlerTouch : TeleportInputHandlerHMD
             }
 
             bool touching = bestMag > ThumbstickTeleportThreshold
-                || (AimingController == OVRInput.Controller.Touch && (leftTouched || rightTouched))
+                || (AimingController == OVRInput.Controller.RTouch && (leftTouched || rightTouched))
                 || (AimingController == OVRInput.Controller.LTouch && leftTouched)
                 || (AimingController == OVRInput.Controller.RTouch && rightTouched);
 			if (!touching)
@@ -261,7 +261,7 @@ public class TeleportInputHandlerTouch : TeleportInputHandlerHMD
 	public override void GetAimData(out Ray aimRay)
 	{
 		OVRInput.Controller sourceController = AimingController;
-		if(sourceController == OVRInput.Controller.Touch)
+		if(sourceController == OVRInput.Controller.RTouch)
 		{
 			sourceController = InitiatingController;
 		}

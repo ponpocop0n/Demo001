@@ -229,7 +229,7 @@ public static class OVRInput
 		None                      = OVRPlugin.Controller.None,           ///< Null controller.
 		LTouch                    = OVRPlugin.Controller.LTouch,         ///< Left Oculus Touch controller. Virtual input mapping differs from the combined L/R Touch mapping.
 		RTouch                    = OVRPlugin.Controller.RTouch,         ///< Right Oculus Touch controller. Virtual input mapping differs from the combined L/R Touch mapping.
-		Touch                     = OVRPlugin.Controller.Touch,          ///< Combined Left/Right pair of Oculus Touch controllers.
+		RTouch                     = OVRPlugin.Controller.Touch,          ///< Combined Left/Right pair of Oculus Touch controllers.
 		Remote                    = OVRPlugin.Controller.Remote,         ///< Oculus Remote controller.
 		Gamepad                   = OVRPlugin.Controller.Gamepad,        ///< Xbox 360 or Xbox One gamepad on PC. Generic gamepad on Android.
 		Hands                     = OVRPlugin.Controller.Hands,          ///< Left Hand provided by hand-tracking.
@@ -344,10 +344,10 @@ public static class OVRInput
 
 		if ((activeControllerType == Controller.LTouch) || (activeControllerType == Controller.RTouch))
 		{
-			if ((connectedControllerTypes & Controller.Touch) == Controller.Touch)
+			if ((connectedControllerTypes & Controller.RTouch) == Controller.RTouch)
 			{
 				// If either Touch controller is Active and both Touch controllers are connected, set both to Active.
-				activeControllerType = Controller.Touch;
+				activeControllerType = Controller.RTouch;
 			}
 		}
 
@@ -1611,9 +1611,9 @@ public static class OVRInput
 		}
 
 		// If the mask requests both Touch controllers, reject the individual touch controllers.
-		if (((controllerMask & Controller.Touch) == Controller.Touch)
-			&& ((controllerType & Controller.Touch) != 0)
-			&& ((controllerType & Controller.Touch) != Controller.Touch))
+		if (((controllerMask & Controller.RTouch) == Controller.RTouch)
+			&& ((controllerType & Controller.RTouch) != 0)
+			&& ((controllerType & Controller.RTouch) != Controller.RTouch))
 		{
 			isValid = false;
 		}
@@ -1902,7 +1902,7 @@ public static class OVRInput
 		{
 			OVRPlugin.ControllerState4 state;
 
-			if (OVRManager.loadedXRDevice == OVRManager.XRDevice.OpenVR && ( (controllerType & Controller.Touch) != 0) )
+			if (OVRManager.loadedXRDevice == OVRManager.XRDevice.OpenVR && ( (controllerType & Controller.RTouch) != 0) )
 				state = GetOpenVRControllerState(controllerType);
 			else
 				state = OVRPlugin.GetControllerState4((uint)controllerType);
@@ -2048,7 +2048,7 @@ public static class OVRInput
 	{
 		public OVRControllerTouch()
 		{
-			controllerType = Controller.Touch;
+			controllerType = Controller.RTouch;
 		}
 
 		public override void ConfigureButtonMap()

@@ -59,9 +59,11 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandlerHMD.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerParabolic.cs" />
     <Compile Include="Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/HandsActiveChecker.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
+    <Compile Include="Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatar.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs" />
@@ -73,12 +75,17 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/LaserPointer.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransition.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs" />
+    <Compile Include="Assets/Scripts/Furueru2.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/GazeTarget.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/SelectionCylinder.cs" />
+    <Compile Include="Assets/Scripts/Ugoki_KJ4.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/PanelHMDFollower.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/SlowMoButton.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/CowController.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/LevelReset.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/AppDeeplink/AppDeeplinkUI.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" />
@@ -100,6 +107,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/MediaPlayerImage.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/DistanceGrab/Scripts/DistanceGrabberSample.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableRegistry.cs" />
+    <Compile Include="Assets/Scripts/KenjuuMaker_.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/HandedInputSelector.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/DistanceGrabbable.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/Utils/Pose.cs" />
@@ -121,7 +129,9 @@
     <Compile Include="Assets/Oculus/SampleFramework/Usage/StartScene/Scripts/StartMenu.cs" />
     <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionWarp.cs" />
+    <Compile Include="Assets/Scripts/Furueru1.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Video/Scripts/VectorUtil.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionBlink.cs" />
@@ -131,6 +141,7 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/DistanceGrab/Scripts/PauseOnInputLoss.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableToolsCreator.cs" />
     <Compile Include="Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/CameraSwitch.cs" />
     <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs" />
     <Compile Include="Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/WindmillBladesController.cs" />
@@ -146,13 +157,17 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/CustomHands/Scripts/Hand.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportOrientationHandler.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTransitionInstant.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Locomotion/Scripts/LocomotionSampleSupport.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/Tools/InteractableToolView.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/HandsInteraction/Scripts/InteractableToolsInputRouter.cs" />
     <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" />
+    <Compile Include="Assets/Scripts/Ugoki_KJ3.cs" />
     <Compile Include="Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs" />
+    <Compile Include="Assets/Scripts/KenjuuMaker.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/Locomotion/Scripts/CharacterCapsule.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportTargetHandlerPhysical.cs" />
@@ -197,21 +212,6 @@
     <Compile Include="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportAimHandlerLaser.cs" />
     <Compile Include="Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" />
     <Compile Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Scripts/TrackSegment.cs" />
-    <Compile Include="Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/SlowMoButton.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/LevelReset.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/CameraSwitch.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
-    <Compile Include="Assets/Scripts/KenjuuMaker.cs" />
-    <Compile Include="Assets/Scripts/KenjuuMaker_.cs" />
-    <Compile Include="Assets/Scripts/Furueru1.cs" />
-    <Compile Include="Assets/Scripts/Furueru2.cs" />
-    <Compile Include="Assets/Scripts/Ugoki_KJ3.cs" />
-    <Compile Include="Assets/Scripts/Ugoki_KJ4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Shaders/XingLightShader.shader" />
@@ -828,14 +828,17 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -852,29 +855,26 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -889,6 +889,10 @@
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
       <Project>{156E6512-A9B3-78DC-BDCB-73DCAAF59CB6}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.csproj">
+      <Project>{83F8EF7B-7841-138C-DE93-00B286AF5E34}</Project>
+      <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{B9707826-53D6-009A-F247-93F0C4FBE249}</Project>
@@ -905,10 +909,6 @@
     <ProjectReference Include="Oculus.LipSync.csproj">
       <Project>{0998586C-7145-BB7C-96C2-984373ED7F02}</Project>
       <Name>Oculus.LipSync</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{83F8EF7B-7841-138C-DE93-00B286AF5E34}</Project>
-      <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

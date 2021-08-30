@@ -16,11 +16,14 @@ public class Ugoki_KJ4 : MonoBehaviour
         transform.Translate(0f, 0f, -0.03f);
 
     }
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.name == "RightHandAnchor")
+        if (col.CompareTag("Bullet"))
         {
             OVRInput.SetControllerVibration(0f, 1f, OVRInput.Controller.LTouch);
         }
+       
     }
+    
+
 }
