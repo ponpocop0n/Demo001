@@ -230,10 +230,10 @@ public class LocomotionSampleSupport : MonoBehaviour
 
         var input = TeleportController.GetComponent<TeleportInputHandlerTouch>();
         input.InputMode = TeleportInputHandlerTouch.InputModes.ThumbstickTeleportForwardBackOnly;
-        input.AimingController = OVRInput.Controller.Touch;
+        input.AimingController = OVRInput.Controller.RTouch;
         ActivateHandlers<TeleportInputHandlerTouch, TeleportAimHandlerParabolic, TeleportTargetHandlerPhysical, TeleportOrientationHandlerThumbstick, TeleportTransitionBlink>();
         var orient = TeleportController.GetComponent<TeleportOrientationHandlerThumbstick>();
-        orient.Thumbstick = OVRInput.Controller.Touch;
+        orient.Thumbstick = OVRInput.Controller.RTouch;
     }
 
 	/*

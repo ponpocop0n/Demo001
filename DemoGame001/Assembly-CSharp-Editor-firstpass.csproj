@@ -56,12 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs" />
-    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs" />
-    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs" />
-    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" />
     <Compile Include="Assets/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets/Standard Assets/Editor/Water/Water4/SpecularLightingEditor.cs" />
+    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs" />
+    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs" />
+    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/WaterBaseEditor.cs" />
+    <Compile Include="Assets/Standard Assets/Editor/Water/Water4/WaterEditorUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -301,14 +301,14 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
@@ -679,14 +679,17 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -703,29 +706,26 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
       <HintPath>Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -740,6 +740,10 @@
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
       <Project>{156E6512-A9B3-78DC-BDCB-73DCAAF59CB6}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.Platform.csproj">
+      <Project>{83F8EF7B-7841-138C-DE93-00B286AF5E34}</Project>
+      <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
       <Project>{B9707826-53D6-009A-F247-93F0C4FBE249}</Project>
@@ -756,10 +760,6 @@
     <ProjectReference Include="Oculus.LipSync.csproj">
       <Project>{0998586C-7145-BB7C-96C2-984373ED7F02}</Project>
       <Name>Oculus.LipSync</Name>
-    </ProjectReference>
-    <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{83F8EF7B-7841-138C-DE93-00B286AF5E34}</Project>
-      <Name>Oculus.Platform</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -165,7 +165,7 @@
 89-->[:unityLibrary] /Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:81:9-83:68
 90            android:name="unity.build-id"
 90-->[:unityLibrary] /Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:82:13-42
-91            android:value="65cde828-ab3c-4990-b754-5b3661fc8aad" />
+91            android:value="17231fb3-ee4f-4575-9fc7-5ff5d2ed17d2" />
 91-->[:unityLibrary] /Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:83:13-65
 92        <meta-data
 92-->[:unityLibrary] /Users/rikoshiomoto/Documents/GitHub/Demo001/DemoGame001/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/debug/AndroidManifest.xml:84:9-86:39

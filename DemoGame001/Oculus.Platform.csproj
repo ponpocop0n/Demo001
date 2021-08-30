@@ -68,8 +68,8 @@
     <Compile Include="Assets/Oculus/Platform/Samples/VrHoops/Scripts/Camera2DController.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadCancelResult.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/Models/CalApplicationFinalized.cs" />
-    <Compile Include="Assets/Oculus/Platform/Scripts/Encoder.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/Models/Party.cs" />
+    <Compile Include="Assets/Oculus/Platform/Scripts/Encoder.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/Models/AssetFileDownloadUpdate.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/RoomType.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/Models/CloudStorageConflictMetadata.cs" />
@@ -480,14 +480,14 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
